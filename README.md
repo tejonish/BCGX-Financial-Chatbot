@@ -108,6 +108,17 @@ streamlit run app.py
 - Data Visualization using Plotly
 - Streamlit Application Development
 
+## Screenshots
+
+### Apple Analysis
+![Apple Analysis](apple_snap.png)
+
+### Microsoft Analysis
+![Microsoft Analysis](ms_snap.png)
+
+### Tesla Analysis
+![Tesla Analysis](tesla_snap.png)
+
 ## Author
 
 **Nishanth B**
