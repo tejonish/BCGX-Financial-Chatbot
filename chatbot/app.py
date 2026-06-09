@@ -1,9 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from pathlib import Path
 
 # Load data
-df = pd.read_csv("BCG.csv")
+csv_path = Path(__file__).parent / "BCG.csv"
+df = pd.read_csv(csv_path)
 
 # Add calculated columns
 df["Profit Margin (%)"] = (df["Net Income"] / df["Revenue"]) * 100
